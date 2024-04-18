@@ -1,4 +1,6 @@
 class Decode_util():
+    slice_type_dic = {0:'P', 1:'B', 2:'I', 3:'SP', 4:'SI', 5:'P', 6:'B', 7:'I', 8:'SP', 9:'SI'}
+
     @staticmethod
     def b8(bitstream):
         value = bitstream[:8]
